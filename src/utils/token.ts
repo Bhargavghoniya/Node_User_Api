@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const SECRET = "MY_SECRET_KEY";
+const SECRET = "Bhargav_Ghoniya";
 
 export const generateToken = (user: any) => {
     return jwt.sign(
